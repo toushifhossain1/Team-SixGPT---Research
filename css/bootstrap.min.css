@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* if code does not work remove the print - on line 2525 */
 /*!
  * Bootstrap v5.0.0-beta2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -155,7 +156,8 @@ h6 {
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+
 }
 
 abbr[data-bs-original-title],
@@ -2521,7 +2523,8 @@ textarea.form-control-lg {
     -moz-appearance: none;
     appearance: none;
     -webkit-print-color-adjust: exact;
-    color-adjust: exact
+    print-color-adjust: exact
+        /* if code does not work remove the print - */
 }
 
 .form-check-input[type=checkbox] {
