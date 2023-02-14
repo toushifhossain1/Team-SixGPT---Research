@@ -9,7 +9,7 @@ https://templatemo.com/tm-560-astro-motion
 var gallery = undefined;
 
 function closeMenu() {
-  $(".navbar-collapse").removeClass("show"); 
+  $(".navbar-collapse").removeClass("show");
 }
 
 function highlightMenu(no) {
@@ -55,13 +55,13 @@ function setupGallery() {
 }
 
 function openPage(no) {
-  if(no == 2) {
-    if(gallery == undefined) {
+  if (no == 2) {
+    if (gallery == undefined) {
       setupGallery();
     } else {
       $('.gallery-slider').slick('unslick');
       setupGallery();
-    }    
+    }
   }
 
   $('.cd-hero-slider li').hide();
@@ -69,27 +69,27 @@ function openPage(no) {
     .fadeIn();
 }
 
-$(window).on('load', function() {
+$(window).on('load', function () {
   $('body').addClass('loaded');
   openPage(1);
 });
 
-jQuery(function() {
-    $('.tm-page-link').on('click', function(){
-      var pageNo = $(this).data('page-no');
-      openPage(pageNo);
-      highlightMenu(pageNo);
-    });
+jQuery(function () {
+  $('.tm-page-link').on('click', function () {
+    var pageNo = $(this).data('page-no');
+    openPage(pageNo);
+    highlightMenu(pageNo);
+  });
 
-    $(".navbar .navbar-nav > .nav-item > a.nav-link").on('click', function(e){
-      var pageNo = $(this).data('no');
+  $(".navbar .navbar-nav > .nav-item > a.nav-link").on('click', function (e) {
+    var pageNo = $(this).data('no');
 
-      openPage(pageNo);
-      highlightMenu(pageNo);
-      closeMenu();     
-    });
+    openPage(pageNo);
+    highlightMenu(pageNo);
+    closeMenu();
+  });
 
-    $("html").click(function(e) {
-      closeMenu();
-    });
+  $("html").click(function (e) {
+    closeMenu();
+  });
 });
