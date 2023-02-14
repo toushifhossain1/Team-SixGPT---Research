@@ -10,18 +10,21 @@ html,
 body,
 .page-container {
     height: 100%;
+    width: 100%;
+
+
 }
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 300;
-    color: white;
+    color: #99FF66;
     line-height: 1.5;
 }
 
 a {
-    color: #9F6;
+    color: rgb(166, 249, 255);
     text-decoration: none;
     transition: all 0.3s ease;
 }
@@ -39,15 +42,21 @@ h2 {
 }
 
 .highlight {
-    color: #99FF66;
+    color: rgb(166, 249, 255);
 }
+
+
+
+
+
+
 
 .page-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .container-fluid {
@@ -61,7 +70,7 @@ h2 {
 }
 
 .btn-primary {
-    background-color: white;
+    background-color: rgb(166, 249, 255);
     border: none;
     color: #333;
 }
@@ -83,10 +92,9 @@ h2 {
     min-height: 100%;
     transform: translateX(-50%) translateY(-50%);
     z-index: -100;
-    background-image: url(../img/tm-astro-bg.jpg);
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+
+
 }
 
 #tm-nav {
@@ -102,7 +110,7 @@ h2 {
 }
 
 .navbar {
-    margin-top: 15px;
+    margin-top: -15px;
 }
 
 .navbar .navbar-nav .nav-item {
@@ -762,3 +770,24 @@ figure.effect-julia:hover p {
 }
 
 /*============ Preloader ends ==================================*/
+
+/*
+About Us start
+*/
+.card {
+    background-color: transparent;
+}
+
+.about {
+    display: flex;
+}
+
+.bottom {
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+
+/*
+About Us end
+*/
