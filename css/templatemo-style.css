@@ -786,8 +786,23 @@ About Us start
 .bottom {
     margin-top: 100px;
     margin-right: 20px;
+
 }
 
+.fac {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.cardF {
+    width: 350px;
+}
+
+#Centre {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 /*
 About Us end
