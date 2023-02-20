@@ -198,7 +198,7 @@ h2 {
 }
 
 .page-width-1 {
-    max-width: 810px;
+    max-width: 90%;
 }
 
 .page-width-2 {
@@ -792,3 +792,21 @@ About Us start
 /*
 About Us end
 */
+
+.box {
+    display: flex;
+}
+
+.WrittenPart {
+    margin-right: 100px;
+}
+
+.papers {
+    display: flex;
+}
+
+.paperD {
+    font-size: 25px;
+    margin-left: 25px;
+    margin-left: 25px;
+}
