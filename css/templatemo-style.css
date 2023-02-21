@@ -22,7 +22,7 @@ body {
     font-weight: 300;
     color: #99FF66;
     line-height: 1.5;
-    background-image: url(/img/Background.png);
+    background-image: url(img/Background.png);
     height: 100%;
 
     /* Center and scale the image nicely */
