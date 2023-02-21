@@ -22,7 +22,8 @@ body {
     font-weight: 300;
     color: #99FF66;
     line-height: 1.5;
-    background-image: url(/img/Background.png);
+    background-color: #222222;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg);
     height: 100%;
 
     /* Center and scale the image nicely */
