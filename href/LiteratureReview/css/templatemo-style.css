@@ -19,7 +19,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     font-weight: 300;
-    color: #99FF66;
+    color: rgb(255, 255, 255);
     line-height: 1.5;
 
     background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg);
