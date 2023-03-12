@@ -1,0 +1,1 @@
+Robot sends Methane gas% , temperature, humidity, corresponding date and time to the database, from there necessary data is fetched for Machine learning algorithm, which predicts the decay % and predicted lifespan and they are stored in database from where the user can check which ever needed.
